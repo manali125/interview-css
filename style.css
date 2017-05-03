@@ -1,10 +1,36 @@
 
-
 /* --- YOUR CODE STARTS HERE --- */
 
+.panel{
+	width: 60%;
+}
+.col-half-offset{
+  margin-left:4.17%;
+}
+.heart{
+  margin-left: -6%;
+}
 
+.description{
+	width: 25em; 
+	height: 5em; 
+	overflow: hidden; 
+	text-overflow: clip; 
+}
+#foodImg{
+	max-height: 100%;
+    max-width: 100%;
 
-
-
+}
+.preferences,.imgDiv,.likeDiv,.descriptionDiv{
+	margin-top: 2%;
+}
+#grubImg{
+	max-height: 35px;
+    max-width: 35px;
+}
+.col-lg-12, .like{
+	text-align: left;
+}
 
 /* --- YOUR CODE ENDS HERE --- */

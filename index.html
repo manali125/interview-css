@@ -2,38 +2,84 @@
 <html>
 <head>
     <title>Hello CSS!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="column">
       <h1>End Result</h1>
       <img src="assets/result.png" class="end-result">
     </div>
-
+<!-- YOUR CODE STARTS HERE -->
     <div class="column">
       <h1>Your Progress...</h1>
+      <div class="panel panel-default">
+        <!-- Panel heading -->
+        <div class="panel-heading"> 
+           <div class="row">
+              <div class="col-lg-2">
+                <!-- <div class="col-lg-1"> -->
+                  <span class="fa fa-angle-left"></span>
+               <!--  </div> -->
+              </div>
+              <div class="col-lg-8"><strong>Photo</strong></div>
+              <div class="col-lg-2">
+               <span class="fa fa-repeat"></span>
+              </div>
+           </div>  
+       <!-- Panel heading closed -->
+       </div>
+       <!-- Panel Body -->
+       <div class="panel-body">
+       
+       <div class="row">
+         <div class="col-lg-2">
+           <img class="img-circle" id="grubImg" src="assets/grub.png">
+         </div>
+         <div class="col-lg-8 text-left">
+           <div class="grubStreet"><strong>grubstreet</strong></div>
+            <div>ICHIRAN NY <span class="fa fa-angle-right"></span></div>
+         </div>
+         <div class="col-lg-2">
+            <span class="fa fa-ellipsis-h"></span>
+         </div>
+       </div>
 
+       <div class="row imgDiv">
+         <img id="foodImg" src="assets/food.png">
+       </div>
 
-      <!-- YOUR CODE STARTS HERE -->
-      
-      <img src="assets/food.png">
-      <div>
-        <span class="fa fa-angle-left"></span>
-        <span class="fa fa-repeat"></span>
-        <span class="fa fa-angle-right"></span>
-        <span class="fa fa-ellipsis-h"></span>
-        <span class="fa fa-heart-o"></span>
-        <span class="fa fa-comment-o"></span>
-        <span class="fa fa-paper-plane-o"></span>
-        <span class="fa fa-bookmark-o"></span>
-        <span class="fa fa-home"></span>
-        <span class="fa fa-search"></span>
-        <span class="fa fa-plus-square-o"></span>
-        <span class="fa fa-heart-o"></span>
-        <span class="fa fa-user-o"></span>
+      <div class="row preferences">
+         <div class="col-lg-10">
+           <div class="col-lg-2 heart"><span class="fa fa-heart-o"></span></div>
+           <div class="col-lg-2"><span class="fa fa-comment-o"></span></div>
+           <div class="col-lg-2"><span class="fa fa-paper-plane-o"></span>
+           </div>
+         </div>
+         <div class="col-lg-2">
+            <span class="fa fa-bookmark-o"></span>
+         </div>
       </div>
+       <div class="row likeDiv">
+         <div class="col-lg-6 like"> <strong>924 likes</strong></div>
+       </div>
 
+       <div class="row descriptionDiv">
+         <div class="col-lg-12 description"><span><strong>grubstreet</strong> </span>Who knew tonkotsu ramen is at its best when consumed alone inside a "flavor concentation booth?" <a href="#">@ichiranny</a> are onto something as their soup knew tonkotsu ramen is at its best when consumed alone inside a "flavor </div>
+       </div>
 
-      <!-- YOUE CODE ENDS HERE -->
+       <div class="panel-footer">
+         <div class="col-lg-2"><span class="fa fa-home"></span></div>
+         <div class="col-lg-2 col-half-offset"><span class="fa fa-search"></span></div>
+         <div class="col-lg-2 col-half-offset"><span class="fa fa-plus-square-o"></span></div>
+         <div class="col-lg-2 col-half-offset"><span class="fa fa-heart-o"></span></div>
+         <div class="col-lg-2 col-half-offset"><span class="fa fa-user-o"></span></div>
+       </div>
+
+      </div>
+      </div>
+    <!-- YOUE CODE ENDS HERE -->
 
 
     </div>
